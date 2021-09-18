@@ -9,25 +9,22 @@ import Projects from "./Components/Projects";
 import profileData from "./profileData.json";
 import ReactGA from "react-ga";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      landingData: profileData.landing,
+      experience: profileData.experience,
+      education: profileData.education,
+      skills: profileData.skills,
+      interests: profileData.interests,
+      awards: profileData.awards,
+    };
+
+    ReactGA.initialize("UA-158818625-1");
+    ReactGA.pageview(window.location.pathname);
+  }
 }
 
 export default App;
