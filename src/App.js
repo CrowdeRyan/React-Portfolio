@@ -19,7 +19,7 @@ class App extends Component {
       education: profileData.education,
       skills: profileData.skills,
       aboutMe: profileData.aboutMe,
-      awards: profileData.awards,
+      projects: profileData.projects,
     };
 
     ReactGA.initialize("UA-158818625-1");
@@ -40,7 +40,7 @@ class App extends Component {
           <hr className="m-0" />
           <AboutMe aboutMe={this.state.aboutMe} />
           <hr className="m-0" />
-          <Projects awards={this.state.projects} />
+          <Projects projects={this.state.projects} />
         </div>
       </div>
     );
