@@ -4,7 +4,7 @@ class AboutMe extends Component {
   constructor(props) {
     super(props);
 
-    this.interests = props.interests;
+    this.aboutMe = props.aboutMe;
   }
 
   render() {
