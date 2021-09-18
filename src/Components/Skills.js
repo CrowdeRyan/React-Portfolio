@@ -35,3 +35,5 @@ class Skills extends Component {
     );
   }
 }
+
+export default Skills;
