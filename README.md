@@ -2,27 +2,19 @@
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-## [App Deployed from GitHub]()
+## [App Deployed from GitHub](https://crowderyan.github.io/React-Portfolio/)
 
 ## Description:
 
-![Start Page](./images/main.png)
+### My Portfolio powered by React
 
-# Installation:
+#### With Links to Github, LinkedIn, and a downloadable Resume
 
-# Usage:
+![main](/src/images/main.png)
 
-## Title
+## Projects
 
-![Title Title](./images/)
-
-## Title
-
-![Title](./images/)
-
-## Title
-
-![Title](./images/)
+![Projects](/src/images/projects.png)
 
 # Questions: https://github.com/Crowderyan
 
