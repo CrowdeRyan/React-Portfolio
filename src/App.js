@@ -1,5 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Sidebar from "./Components/Sidebar";
+import Landing from "./Components/Landing";
+import Experience from "./Components/Experience";
+import Education from "./Components/Education";
+import Skills from "./Components/Skills";
+import AboutMe from "./Components/AboutMe";
+import Projects from "./Components/Projects";
+import profileData from "./profileData.json";
+import ReactGA from "react-ga";
 
 function App() {
   return (
