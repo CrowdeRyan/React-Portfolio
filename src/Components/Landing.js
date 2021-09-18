@@ -24,6 +24,14 @@ class Landing extends Component {
             <a href="mailto:name@email.com">{this.landingData.email}</a>
           </div>
           <p className="lead mb-5">{this.landingData.bio}</p>
+          <li>
+            <a
+              href="./Assets/Ryan Crowder Resume Developer 2.pdf"
+              download="Ryan Crowder"
+            >
+              Resume
+            </a>
+          </li>
           <div className="social-icons">
             <a href={this.landingData.linkedin}>
               <FontAwesomeIcon icon={faLinkedin} />

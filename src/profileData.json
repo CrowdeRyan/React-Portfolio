@@ -66,13 +66,22 @@
   },
   "projects": [
     {
-      "projectName": "React-Employee_Directory"
+      "projectName": "React-Employee_Directory",
+      "projectRepo": "",
+      "projectLive": "",
+      "projectImage": "./Assets/.png"
     },
     {
-      "projectName": "Employee_Tracker"
+      "projectName": "Employee_Tracker",
+      "projectRepo": "",
+      "projectLive": "",
+      "projectImage": "./Assets/.png"
     },
     {
-      "projectName": "Offline_Budget-Tracker"
+      "projectName": "Offline_Budget-Tracker",
+      "projectRepo": "",
+      "projectLive": "",
+      "projectImage": "./Assets/.png"
     }
   ]
 }

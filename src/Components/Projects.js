@@ -20,8 +20,8 @@ class Projects extends Component {
           <ul className="fa-ul mb-0">
             {this.projects.map((data, index) => (
               <li key={index}>
-                <FontAwesomeIcon icon={faAward} color="#ffc107" />
-                <span className="ml-2"> {data.projectsDetail} </span>
+          <a href= {data.projectsRepo}><img src= {data.projectsImage} alt="Project" width="250"></a>
+          <p><a href= {data.projectsLive}> {data.projectsName} </a></p>
               </li>
             ))}
           </ul>
