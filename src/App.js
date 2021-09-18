@@ -18,7 +18,7 @@ class App extends Component {
       experience: profileData.experience,
       education: profileData.education,
       skills: profileData.skills,
-      interests: profileData.interests,
+      aboutMe: profileData.aboutMe,
       awards: profileData.awards,
     };
 
@@ -38,7 +38,7 @@ class App extends Component {
           <hr className="m-0" />
           <Skills skills={this.state.skills} />
           <hr className="m-0" />
-          <AboutMe interests={this.state.aboutMe} />
+          <AboutMe aboutMe={this.state.aboutMe} />
           <hr className="m-0" />
           <Projects awards={this.state.projects} />
         </div>

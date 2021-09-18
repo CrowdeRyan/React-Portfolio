@@ -60,7 +60,7 @@ class Sidebar extends Component {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#aboutME">
+              <a className="nav-link js-scroll-trigger" href="#aboutMe">
                 About Me
               </a>
             </li>
