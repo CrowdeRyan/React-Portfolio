@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import image from "../Assets/headshot.JPG";
+import image from "../images/headshot.JPG";
 
 class Sidebar extends Component {
   constructor(props) {

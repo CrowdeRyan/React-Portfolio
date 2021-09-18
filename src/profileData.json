@@ -6,7 +6,8 @@
     "bio": "My name is Ryan Crowder, and I am presenting to you my skills, my experience, and my character for your consideration. But, what you really want to know is how any of this benefits you and your organization; and that all comes down to getting a job done, or in other words, project management.",
     "email": "Crowderyan@gmail.com",
     "linkedin": "https://www.linkedin.com/in/ryan-crowder-487348209/",
-    "github": "https://github.com/CrowdeRyan"
+    "github": "https://github.com/CrowdeRyan",
+    "resume": "/React-Portfolio/Assets/Ryan_Crowder_Resume_Developer.pdf"
   },
   "experience": [
     {
@@ -67,21 +68,21 @@
   "projects": [
     {
       "projectName": "React-Employee_Directory",
-      "projectRepo": "",
-      "projectLive": "",
-      "projectImage": "./Assets/.png"
+      "projectRepo": "https://github.com/CrowdeRyan/React-Employee_Directory",
+      "projectLive": "https://crowderyan.github.io/React-Employee_Directory/",
+      "projectImage": "/React-Portfolio/Assets/employee_directory.png"
     },
     {
       "projectName": "Employee_Tracker",
-      "projectRepo": "",
-      "projectLive": "",
-      "projectImage": "./Assets/.png"
+      "projectRepo": "https://github.com/CrowdeRyan/Employee_Tracker",
+      "projectLive": "https://drive.google.com/file/d/1IzkaO0d_rI96uTz7oVRVd3NUMWxEIPvn/view?usp=sharing",
+      "projectImage": "/React-Portfolio/Assets/HW12_EmployeeTracker.gif"
     },
     {
       "projectName": "Offline_Budget-Tracker",
-      "projectRepo": "",
-      "projectLive": "",
-      "projectImage": "./Assets/.png"
+      "projectRepo": "https://github.com/CrowdeRyan/Offline_Budget-Tracker",
+      "projectLive": "https://progressive-budget-rr.herokuapp.com/",
+      "projectImage": "/React-Portfolio/Assets/offline_budget.png"
     }
   ]
 }

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import resume from "../Assets/Ryan_Crowder_Resume_Developer.pdf";
 
 class Landing extends Component {
   constructor(props) {
@@ -13,7 +12,7 @@ class Landing extends Component {
     return (
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="about"
+        id="home"
       >
         <div className="w-100">
           <h1 className="mb-0">
@@ -26,7 +25,7 @@ class Landing extends Component {
           </div>
           <p className="lead mb-5">{this.landingData.bio}</p>
           <li>
-            <a href={resume} download="Ryan Crowder">
+            <a href={this.landingData.resume} download="Ryan Crowder">
               Resume
             </a>
           </li>

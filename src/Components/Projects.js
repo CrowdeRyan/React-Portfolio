@@ -18,18 +18,15 @@ class Projects extends Component {
           <ul className="fa-ul mb-0">
             {this.projects.map((data, index) => (
               <li key={index}>
-                <a href={data.projects.projectsRepo}>
+                <a href={data.projectRepo}>
                   <img
-                    className="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src={data.projects.projectsImage}
+                    className="img-fluid img-profile rounded-circle mx-auto mb-2 col-6"
+                    src={data.projectImage}
                     alt=""
                   ></img>
                 </a>
                 <p>
-                  <a href={data.projects.projectsLive}>
-                    {" "}
-                    {data.projects.projectsName}{" "}
-                  </a>
+                  <a href={data.projectLive}> {data.projectName} </a>
                 </p>
               </li>
             ))}
