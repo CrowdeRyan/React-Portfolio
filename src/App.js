@@ -25,6 +25,26 @@ class App extends Component {
     ReactGA.initialize("UA-158818625-1");
     ReactGA.pageview(window.location.pathname);
   }
+  render() {
+    return (
+      <div className="App">
+        <Sidebar sidebarData={this.state.landingData} />
+        <div className="container-fluid p-0">
+          <Landing landingData={this.state.landingData} />
+          <hr className="m-0" />
+          <Experience experience={this.state.experience} />
+          <hr className="m-0" />
+          <Education education={this.state.education} />
+          <hr className="m-0" />
+          <Skills skills={this.state.skills} />
+          <hr className="m-0" />
+          <AboutMe interests={this.state.aboutMe} />
+          <hr className="m-0" />
+          <Projects awards={this.state.projects} />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
