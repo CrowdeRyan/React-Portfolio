@@ -7,7 +7,6 @@ import Skills from "./Components/Skills";
 import AboutMe from "./Components/AboutMe";
 import Projects from "./Components/Projects";
 import profileData from "./profileData.json";
-import ReactGA from "react-ga";
 
 class App extends Component {
   constructor(props) {
@@ -21,9 +20,6 @@ class App extends Component {
       aboutMe: profileData.aboutMe,
       projects: profileData.projects,
     };
-
-    ReactGA.initialize("UA-158818625-1");
-    ReactGA.pageview(window.location.pathname);
   }
   render() {
     return (
