@@ -21,6 +21,7 @@ class Projects extends Component {
                 <p>
                   <a href={data.projectLive}> {data.projectName} </a>
                 </p>
+                <p>{data.projectDescription}</p>
                 <a href={data.projectRepo}>
                   <img
                     className="img-fluid img-profile rounded-circle mx-auto mb-2 col-6"
@@ -28,6 +29,9 @@ class Projects extends Component {
                     alt=""
                   ></img>
                 </a>
+                <p>
+                  <br></br>
+                </p>
               </li>
             ))}
           </ul>

@@ -7,7 +7,7 @@
     "email": "Crowderyan@gmail.com",
     "linkedin": "https://www.linkedin.com/in/ryan-crowder-487348209/",
     "github": "https://github.com/CrowdeRyan",
-    "resume": "/React-Portfolio/Assets/Ryan_Crowder_Resume_Developer.pdf"
+    "resume": "/React-Portfolio/Assets/Ryan_Crowder_Developer_Resume_Oct.pdf"
   },
   "experience": [
     {
@@ -67,22 +67,25 @@
   },
   "projects": [
     {
-      "projectName": "React-Employee_Directory",
+      "projectName": "React Employee Directory",
       "projectRepo": "https://github.com/CrowdeRyan/React-Employee_Directory",
       "projectLive": "https://crowderyan.github.io/React-Employee_Directory/",
-      "projectImage": "/React-Portfolio/Assets/employee_directory.png"
+      "projectImage": "/React-Portfolio/Assets/employee_directory.png",
+      "projectDescription": "View, edit, and scroll a directory of names and details."
     },
     {
-      "projectName": "Employee_Tracker",
-      "projectRepo": "https://github.com/CrowdeRyan/Employee_Tracker",
-      "projectLive": "https://drive.google.com/file/d/1IzkaO0d_rI96uTz7oVRVd3NUMWxEIPvn/view?usp=sharing",
-      "projectImage": "/React-Portfolio/Assets/HW12_EmployeeTracker.gif"
+      "projectName": "Git-Share, app planning tool",
+      "projectRepo": "https://github.com/CrowdeRyan/git-share",
+      "projectLive": "https://git--share.herokuapp.com/",
+      "projectImage": "/React-Portfolio/Assets/git-share2.png",
+      "projectDescription": "Tool to search out, plan out and coordinate your app: with post-it notes that you can prioritize and save."
     },
     {
-      "projectName": "Offline_Budget-Tracker",
+      "projectName": "Offline Budget Tracker",
       "projectRepo": "https://github.com/CrowdeRyan/Offline_Budget-Tracker",
       "projectLive": "https://progressive-budget-rr.herokuapp.com/",
-      "projectImage": "/React-Portfolio/Assets/offline_budget.png"
+      "projectImage": "/React-Portfolio/Assets/offline_budget.png",
+      "projectDescription": "A locally functional budget app for personal finance management."
     }
   ]
 }
