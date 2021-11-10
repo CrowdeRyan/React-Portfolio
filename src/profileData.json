@@ -2,12 +2,12 @@
   "landing": {
     "firstName": "Ryan",
     "lastName": "Crowder",
-    "phoneNumber": "704 555-1234",
+    "phoneNumber": "",
     "bio": "My name is Ryan Crowder, and I am presenting to you my skills, my experience, and my character for your consideration. But, what you really want to know is how any of this benefits you and your organization; and that all comes down to getting a job done, or in other words, project management.",
     "email": "Crowderyan@gmail.com",
     "linkedin": "https://www.linkedin.com/in/ryan-crowder-487348209/",
     "github": "https://github.com/CrowdeRyan",
-    "resume": "/React-Portfolio/public/Assets/Ryan_Crowder_Developer_Resume_Nov.pdf"
+    "resume": "/React-Portfolio/Assets/Ryan_Crowder_Developer_Resume_Nov.pdf"
   },
   "experience": [
     {
